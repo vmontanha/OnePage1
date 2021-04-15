@@ -17,22 +17,19 @@
     
     <title>SandBox Mobile First</title>
 </head>
-<body>
-    <!--===== SCROLL TOP =====-->
-        
-        
+<body>    
         <!--===== HEADER =====-->
         <header class="l-header" id="header">
             <nav class="nav bd-container">
-                <a href="#" class="nav__logo">SandBox</a>
+                <a href="#" class="nav__logo">VM Desenvolvimento</a>
 
                 <div class="nav__menu" id="nav-menu">
                     <ul class="nav__list">
                         <li class="nav__item"><a href="#home" class="nav__link active-link ">Home</a></li>
-                        <li class="nav__item"><a href="#about" class="nav__link">About</a></li>
-                        <li class="nav__item"><a href="#services" class="nav__link">Services</a></li>
+                        <li class="nav__item"><a href="#about" class="nav__link">Sobre mim</a></li>
+                        <li class="nav__item"><a href="#services" class="nav__link">Serviços</a></li>
                         <li class="nav__item"><a href="#portfolio" class="nav__link">Portfolio</a></li>
-                        <li class="nav__item"><a href="#contact" class="nav__link">Contact</a></li>
+                        <li class="nav__item"><a href="#contact" class="nav__link">Contato</a></li>
                     </ul>
                 </div>
 
@@ -45,62 +42,294 @@
         <main class="l-main">
             <!--===== HOME =====-->
             <section class="home" id="home">
-                <div class="home__container bd-container bdgrid">
+                <div class="home__container bd-container bd-grid">
                     <div class="home__data">
-                        <span class="home__greeting">Hello Word</span>
-                        <h1 class="home__name">Freud</h1>
-                        <span class="home__profession">Psicanalise</span>
+                        <span class="home__greeting">Hello World, me chamo Vinícius</span>
+                        <h1 class="home__name">Montanha</h1>
+                        <span class="home__profession">WebDesigner</span>
+                        <a download="" href="assets/pdf/CURRICULO.pdf" class="button home__button">Download Cv</a>
                     </div>
 
                     <div class="home__social">
-                        <a href="#" class="home__social-icon"><i class='bx bxl-facebook-circle'></i></a>
-                        <a href="#" class="home__social-icon"><i class='bx bxl-twitter'></i></a>
-                        <a href="#" class="home__social-icon"><i class='bx bxl-instagram'></i></a>
+                        <a href="#" class="home__social-icon"><i class='bx bxl-linkedin'></i></a>
+                        <a href="#" class="home__social-icon"><i class='bx bxl-whatsapp'></i></a>
                     </div>
 
                     <div class="home__img">
-                        <img src="https://images.unsplash.com/photo-1502736842968-bcaab72d0700?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=882&q=80" alt="">
+                        <img id="img" src="https://images.unsplash.com/photo-1612383401559-c32a290d6b17?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=725&q=80" alt="">
                     </div>
                 </div>
             </section>
             
             <!--===== ABOUT =====-->
-            
+            <section class="about section bd-container" id="about">
+                <span class="section-subtitle">Minha Historia</span>
+                <h2 class="section-title">Sobre Mim</h2>
+
+                <div class="about__container bd-grid">
+                    <div class="about__data bd-grid">
+                        <p class="about__description"><span>Ola eu sou Vinicius Montanha,</span><br> sou tambem VM desenvolvimento, empresa voltada para criação, manuntenção de sites</p>
+
+                        <div>
+                            <span class="about__number">05</span>
+                            <span class="about__achievement">Anos de Experiencia</span>
+                        </div>
+
+                        <div>
+                            <span class="about__number">+10</span>
+                            <span class="about__achievement">Projetos concluidos</span>
+                        </div>
+
+                        <div>
+                            <span class="about__number">Todos</span>
+                            <span class="about__achievement">Garantidos a excelencia no mercado</span>
+                        </div>
+                    </div>
+                    <img src="assets/img/about.jpeg" alt="" class="about__img">
+                </div>
+            </section>
 
             <!--===== QUALIFICATION =====-->
-            
+            <section class="qualification section bd-container">
+                <span class="section-subtitle">Experincia e Educação</span>
+                <h2 class="section-title">Experiencia</h2>
 
+                <div class="qualification__container bd-grid">
+                    <div class="qualification__content">
+                        <h2 class="qualification__title">
+                            <i class='bx bxs-briefcase-alt-2 qualification__title-icon'></i>
+                            Experiencia de Trabalho
+                        </h2>
+
+                        <div class="bd-grid">
+                            <div class="qualification__data">
+                                <h3 class="qualification__area">Suporte a Sistemas</h3>
+
+                                <div class="qualification__box">
+                                    <span class="qualification__work">
+                                        <i class='bx bxs-map qualification__icon'></i>
+                                        Holding-Clube
+                                    </span>
+                                    <span class="qualification__work">
+                                        <i class='bx bx-calendar qualification__icon'></i>
+                                        Abril 2019 - Abril 2020
+                                    </span>
+                                </div>
+                            </div>
+                            <div class="qualification__data">
+                                <h3 class="qualification__area">Freela Web</h3>
+
+                                <div class="qualification__box">
+                                    <span class="qualification__work">
+                                        <i class='bx bxs-map qualification__icon'></i>
+                                        Freela
+                                    </span>
+                                    <span class="qualification__work">
+                                        <i class='bx bx-calendar qualification__icon'></i>
+                                        Abril 2020 - Outubro 2021
+                                    </span>
+                                </div>
+                            </div>
+                            <div class="qualification__data">
+                                <h3 class="qualification__area">WebDesigner</h3>
+
+                                <div class="qualification__box">
+                                    <span class="qualification__work">
+                                        <i class='bx bxs-map qualification__icon'></i>
+                                        Conape
+                                    </span>
+                                    <span class="qualification__work">
+                                        <i class='bx bx-calendar qualification__icon'></i>
+                                        Outubro 2020 - Fevereiro 2021
+                                    </span>
+                                </div>
+                            </div>
+                            <div class="qualification__data">
+                                <h3 class="qualification__area">WebDesigner</h3>
+
+                                <div class="qualification__box">
+                                    <span class="qualification__work">
+                                        <i class='bx bxs-map qualification__icon'></i>
+                                        We Sell
+                                    </span>
+                                    <span class="qualification__work">
+                                        <i class='bx bx-calendar qualification__icon'></i>
+                                        Fevereiro 2021 - Atual
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="qualification__content">
+                        <h2 class="qualification__title">
+                            <i class='bx bxs-book qualification__title-icon'></i>
+                            Cursos Certificações
+                        </h2>
+
+                        <div class="bd-grid">
+                            <div class="qualification__data">
+                                <h3 class="qualification__area">Análise e Desenvolvimento de Sistemas</h3>
+
+                                <div class="qualification__box">
+                                    <span class="qualification__work">
+                                        <i class='bx bxs-map qualification__icon'></i>
+                                        IFSP São Paulo - Campus Pirituba
+                                    </span>
+                                    <span class="qualification__work">
+                                        <i class='bx bx-calendar qualification__icon'></i>
+                                        Fevereiro 2019 - Junho 2022
+                                    </span>
+                                </div>
+                            </div>
+                            <div class="qualification__data">
+                                <h3 class="qualification__area">Linguagens de Programação Web</h3>
+
+                                <div class="qualification__box">
+                                    <span class="qualification__work">
+                                        <i class='bx bxs-map qualification__icon'></i>
+                                        IFSP São Paulo - Campus Pirituba
+                                    </span>
+                                    <span class="qualification__work">
+                                        <i class='bx bx-calendar qualification__icon'></i>
+                                        Junho 2015 - Outubro 2015
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
             <!--===== SERVICES =====-->
-            
-            
-            <!--===== PROJECT IN MIND =====-->
-            
+            <section class="services section bd-container" id="services">
+                <span class="section-subtitle">O que eu ofereço</span>
+                <h2 class="section-title">Serviços</h2>
 
+                <div class="services__container bd-grid">
+                    <div class="services__data">
+                        <i class='bx bx-code services__icon' ></i>
+                        <h3 class="services__title">Desenvolvedor Front End</h3>
+                        <p class="services__description">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quis excepturi laboriosam, esse ratione dicta ipsum.</p>
+                        <a href="#" class="button">Contrate Agora</a>
+                    </div>
+
+                    <div class="services__data">
+                        <i class='bx bxs-window-alt services__icon'></i>
+                        <h3 class="services__title">WebDesigner Full</h3>
+                        <p class="services__description">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quis excepturi laboriosam, esse ratione dicta ipsum.</p>
+                        <a href="#" class="button">Contrate Agora</a>
+                    </div>
+
+                    <div class="services__data">
+                        <i class='bx bx-laptop services__icon'></i>
+                        <h3 class="services__title">Suporte Web</h3>
+                        <p class="services__description">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quis excepturi laboriosam, esse ratione dicta ipsum.</p>
+                        <a href="#" class="button"></i> Contrate Agora</a>
+                    </div>
+
+                    <div class="services__data">
+                        <i class='bx bxs-data services__icon' ></i>
+                        <h3 class="services__title">Projetista BD</h3>
+                        <p class="services__description">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quis excepturi laboriosam, esse ratione dicta ipsum.</p>
+                        <a href="#" class="button">Contrate Agora</a>
+                    </div>
+                </div>
+            </section>
             <!--===== PORTFOLIO =====-->
-            
+            <section class="portfolio section bd-container" id="portfolio">
+                <span class="section-subtitle">Meus trabalhos recentes</span>
+                <h2 class="section-title">Portfólio</h2>
 
-            <!--===== TESTIMONIAL =====-->
-            
+                <div class="portfolio__container bd-grid">
+                    <div class="portfolio__content">
+                        <a href="#"><img src="assets/img/work1.png" alt="" class="portfolio__img"></a>
+                        <div class="portfolio__data">
+                            <span class="portfolio__subtitle">Desenvolvimento Web</span>
+                            <a href="#"><h2 class="portfolio__title">Site de criação autoral recentemente entregue a cliente</h2></a>
+                            <a href="https://wesell.ws/" class="button">Veja detalhes</a>
+                        </div>
+                    </div>
+
+                    <div class="portfolio__content">
+                        <a href="#"><img src="assets/img/work2.png" alt="" class="portfolio__img"></a>
+                        <div class="portfolio__data">
+                            <span class="portfolio__subtitle">Desenvolvimento Web</span>
+                            <a href="#"><h2 class="portfolio__title">Site de criação autoral entregue a um cliente antigo</h2></a>
+                            <a href="http://www.conape.com.br/" class="button">Veja detalhes</a>
+                        </div>
+                    </div>
+
+                    <div class="portfolio__content">
+                        <a href="#"><img src="assets/img/work3.png" alt="" class="portfolio__img"></a>
+                        <div class="portfolio__data">
+                            <span class="portfolio__subtitle">Desenvolvimento Web</span>
+                            <a href="#"><h2 class="portfolio__title">Site de criação autoral entregue a um cliente</h2></a>
+                            <a href="https://www.terracocityamerica.com.br/" class="button">Veja detalhes</a>
+                        </div>
+                    </div>
+                </div>
+            </section>
 
             <!--===== CONTACTME =====-->
-            
+            <section class="contact section bd-container" id="contact">
+                <span class="section-subtitle">Para trabalharmos juntos!</span>
+                <h2 class="section-title">Contato</h2>
+
+                <div class="contact__container bd-grid">
+                    <div class="contact__content bd-grid">
+                        <div class="contact__box">
+                            <i class='bx bxs-home contact__icon'></i>
+                            <h3 class="contact__title">Localização</h3>
+                            <span class="contact__description">Rua Ricardo de Freitas, 69</span>
+                        </div>
+
+                        <div class="contact__box">
+                            <i class='bx bxl-whatsapp contact__icon'></i>
+                            <h3 class="contact__title">Telefone</h3>
+                            <span class="contact__description">+55 11 97102-6994</span>
+                        </div>
+
+                        <div class="contact__box">
+                            <i class='bx bx-envelope contact__icon'></i>
+                            <h3 class="contact__title">E-mail</h3>
+                            <span class="contact__description">viniciusmassis01@hotmail.com</span>
+                        </div>
+                    </div>
+                    <form action="" class="contact__form">
+                        <div class="contact__inputs">
+                            <input type="text" placeholder="Nome" class="contact__input">
+                            <input type="email" placeholder="E-mail" class="contact__input">
+                        </div>
+                        <div class="contact__inputs">
+                            <input type="text" placeholder="Tipo de Job" class="contact__input">
+                            <input type="number" placeholder="Telefone" class="contact__input">
+                        </div>
+
+                        <textarea name="" id="" cols="0" rows="7" placeholder="Mensagem" class="contact__input"></textarea>
+
+                        <input type="submit" value="Enviar Mensagem" class="button contact__button">
+                    </form>
+                </div>
+            </section>
         </main>
 
         <!--===== FOOTER =====-->
         <footer class="footer">
-            
+            <div class="footer__container bd-container">
+                <h1 class="footer__title">VM Desenvolvimento</h1>
+                <p class="footer__description">Ola eu sou Vinicius Montanha, sou tambem VM desenvolvimento, empresa voltada para criação, manuntenção de sites</p>
+
+                <div class="footer__social">
+                    <a href="#" class="footer__link"><i class='bx bxl-linkedin'> </i></a>
+                    <a href="#" class="footer__link"><i class='bx bxl-whatsapp'> </i></a>
+                    <a href="#" class="footer__link"><i class='bx bxl-instagram'> </i></a>
+                </div>
+
+                <p class="footer__copy">&#169; 2021 VM Desenvolvimento. Todos direitos reservados</p>
+            </div>
         </footer>
 
-
-    <!--MIXITUB FILTER-->
-    <script src=""></script>
-
-
-    <!--SWIPER JS-->
-    <script src=""></script>
-
     <!--GSAP JS-->
-    <script src=""></script>
+    <script src="assets/js/gsap.min.js"></script>
 
     <script src="assets/js/main.js"></script>
 

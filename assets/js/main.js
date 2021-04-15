@@ -46,15 +46,11 @@ function scrollHeader(){
     if(this.scrollY >= 200) header.classList.add('scroll-header'); else header.classList.remove('scroll-header');
 }
 window.addEventListener('scroll', scrollHeader)
-/*===== SHOW SCROLL TOP =====*/ 
-
-
-/*===== MIXITUP FILTER PORTFOLIO =====*/ 
-
-/* Link active portfolio */ 
-
-
-/*===== SWIPER CAROUSEL =====*/ 
-
 
 /*===== GSAP ANIMATION =====*/ 
+gsap.from('.home__img', {opacity: 0, duration: 2, delay:.5, x:60})
+gsap.from('.home__data', {opacity: 0, duration: 2, delay:.8, y:25});
+gsap.from('.home__greeting, .home__profession,.home__name,.home__button', {opacity: 0, duration: 2, delay:1, y:25, ease:'expo.out', stagger:.4})
+gsap.from('.nav__logo, .nav__toggle', {opacity: 0, duration: 2, delay:1.5, y:25, ease:'expo.out', stagger:.4})
+gsap.from('.nav__item', {opacity: 0, duration: 2, delay:1.9, y:25, ease:'expo.out', stagger:.4})
+gsap.from('.home__social-icon', {opacity: 0, duration: 2.5, delay:2.5, y:30, ease:'expo.out', stagger:.4})
