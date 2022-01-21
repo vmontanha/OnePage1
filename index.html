@@ -1,356 +1,488 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+          <meta charset="UTF-8">
+          <meta http-equiv="X-UA-Compatible" content="IE=edge">
+          <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <!--BOX ICONS-->
-    <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
+          <!--BOX ICONS-->
+          <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
 
-    <!--CSS-->
-    <link rel="stylesheet" href="assets/css/style.css">
-    
-    <title>VM Desenvolvimento</title>
+          <!--CSS-->
+          <link rel="stylesheet" href="assets/css/style.css">
+
+          <title>VM Desenvolvimento</title>
 </head>
-<body>    
-        <!--===== HEADER =====-->
-        <header class="l-header" id="header">
-            <nav class="nav bd-container">
-                <a href="index.html" class="nav__logo">VM Desenvolvimento</a>
 
-                <div class="nav__menu" id="nav-menu">
-                    <ul class="nav__list">
-                        <li class="nav__item"><a href="#home" class="nav__link">Início</a></li>
-                        <li class="nav__item"><a href="#about" class="nav__link">Sobre mim</a></li>
-                        <li class="nav__item"><a href="#services" class="nav__link">Serviços</a></li>
-                        <li class="nav__item"><a href="#portfolio" class="nav__link">Portfolio</a></li>
-                        <li class="nav__item"><a href="#contact" class="nav__link">Contato</a></li>
-                    </ul>
-                </div>
+<body>
+          <!--===== HEADER =====-->
+          <header class="l-header" id="header">
+                    <nav class="nav bd-container">
+                              <a href="index.html" class="nav__logo">VM Desenvolvimento</a>
 
-                <div class="nav__toggle" id="nav-toggle">
-                    <i class='bx bx-menu'></i>
-                </div>
-            </nav>
-        </header>
+                              <div class="nav__menu" id="nav-menu">
+                                        <ul class="nav__list">
+                                                  <li class="nav__item"><a href="#home" class="nav__link">Início</a>
+                                                  </li>
+                                                  <li class="nav__item"><a href="#about" class="nav__link">Sobre mim</a>
+                                                  </li>
+                                                  <li class="nav__item"><a href="#services"
+                                                                      class="nav__link">Serviços</a></li>
+                                                  <li class="nav__item"><a href="#portfolio"
+                                                                      class="nav__link">Portfolio</a></li>
+                                                  <li class="nav__item"><a href="#contact" class="nav__link">Contato</a>
+                                                  </li>
+                                        </ul>
+                              </div>
 
-        <main class="l-main">
-            <!--===== HOME =====-->
-            <section class="home" id="home">
-                <div class="home__container bd-container bd-grid">
-                    <div class="home__data">
-                        <span class="home__greeting">Hello World, me chamo Vinícius</span>
-                        <h1 class="home__name">Montanha</h1>
-                        <span class="home__profession">WebDesigner</span>
-                        <a download="" href="assets/pdf/CURRICULO.pdf" class="button home__button">Download CV</a>
+                              <div class="nav__toggle" id="nav-toggle">
+                                        <i class='bx bx-menu'></i>
+                              </div>
+                    </nav>
+          </header>
+
+          <main class="l-main">
+                    <!--===== HOME =====-->
+                    <section class="home" id="home">
+                              <div class="home__container bd-container bd-grid">
+                                        <div class="home__data">
+                                                  <span class="home__greeting">Hello World, me chamo Vinícius</span>
+                                                  <h1 class="home__name">Montanha</h1>
+                                                  <span class="home__profession">WebDesigner</span>
+                                                  <a download="" href="assets/pdf/CURRICULO.pdf"
+                                                            class="button home__button">Download CV</a>
+                                        </div>
+
+                                        <div class="home__social">
+                                                  <a href="https://www.linkedin.com/mwlite/in/vinícius-montanha-de-assis-b51771183"
+                                                            class="home__social-icon"><i
+                                                                      class='bx bxl-linkedin'></i></a>
+                                                  <a href="https://api.whatsapp.com/send?phone=5511971026994&text=Ol%C3%A1%20quero%20informa%C3%A7%C3%B5es%20sobre%20seu%20trabalho"
+                                                            class="home__social-icon"><i
+                                                                      class='bx bxl-whatsapp'></i></a>
+                                        </div>
+
+                                        <div class="home__img">
+                                                  <img id="img"
+                                                            src="https://images.unsplash.com/photo-1618325500063-14cd8117354c?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=634&q=80"
+                                                            alt="">
+                                        </div>
+                              </div>
+                    </section>
+
+                    <!--===== ABOUT =====-->
+                    <section class="about section bd-container" id="about">
+                              <span class="section-subtitle">Minha Historia</span>
+                              <h2 class="section-title">Sobre Mim</h2>
+
+                              <div class="about__container bd-grid">
+                                        <div class="about__data bd-grid">
+                                                  <p class="about__description"><span>Ola, eu sou Vinícius
+                                                                      Montanha.</span><br> sou tambem VM
+                                                            desenvolvimento, empresa voltada para criação e manuntenção
+                                                            de sites</p>
+
+                                                  <div>
+                                                            <span class="about__number">+05</span>
+                                                            <span class="about__achievement">Anos de Experiência</span>
+                                                  </div>
+
+                                                  <div>
+                                                            <span class="about__number">+10</span>
+                                                            <span class="about__achievement">Projetos Concluídos</span>
+                                                  </div>
+
+                                                  <div>
+                                                            <span class="about__number">Todos</span>
+                                                            <span class="about__achievement">Responsáveis</span>
+                                                  </div>
+                                        </div>
+                                        <img src="assets/img/about.jpeg" alt="" class="about__img">
+                              </div>
+                    </section>
+
+                    <!--===== QUALIFICATION =====-->
+                    <section class="qualification section bd-container">
+                              <span class="section-subtitle">Experiência e Educação</span>
+                              <h2 class="section-title">Experiência</h2>
+
+                              <div class="qualification__container bd-grid">
+                                        <div class="qualification__content">
+                                                  <h2 class="qualification__title">
+                                                            <i
+                                                                      class='bx bxs-briefcase-alt-2 qualification__title-icon'></i>
+                                                            Experiência de Trabalho
+                                                  </h2>
+
+                                                  <div class="bd-grid">
+                                                            <div class="qualification__data">
+                                                                      <h3 class="qualification__area">Suporte a Sistemas
+                                                                      </h3>
+
+                                                                      <div class="qualification__box">
+                                                                                <span class="qualification__work">
+                                                                                          <i
+                                                                                                    class='bx bxs-map qualification__icon'></i>
+                                                                                          HoldingClube
+                                                                                </span>
+                                                                                <span class="qualification__work">
+                                                                                          <i
+                                                                                                    class='bx bx-calendar qualification__icon'></i>
+                                                                                          Abril 2019 - Abril 2020
+                                                                                </span>
+                                                                      </div>
+                                                            </div>
+                                                            <div class="qualification__data">
+                                                                      <h3 class="qualification__area">Freela Web</h3>
+
+                                                                      <div class="qualification__box">
+                                                                                <span class="qualification__work">
+                                                                                          <i
+                                                                                                    class='bx bxs-map qualification__icon'></i>
+                                                                                          Freela
+                                                                                </span>
+                                                                                <span class="qualification__work">
+                                                                                          <i
+                                                                                                    class='bx bx-calendar qualification__icon'></i>
+                                                                                          Abril 2020 - Outubro 2020
+                                                                                </span>
+                                                                      </div>
+                                                            </div>
+                                                            <div class="qualification__data">
+                                                                      <h3 class="qualification__area">WebDesigner</h3>
+
+                                                                      <div class="qualification__box">
+                                                                                <span class="qualification__work">
+                                                                                          <i
+                                                                                                    class='bx bxs-map qualification__icon'></i>
+                                                                                          Conape
+                                                                                </span>
+                                                                                <span class="qualification__work">
+                                                                                          <i
+                                                                                                    class='bx bx-calendar qualification__icon'></i>
+                                                                                          Outubro 2020 - Fevereiro 2021
+                                                                                </span>
+                                                                      </div>
+                                                            </div>
+                                                            <div class="qualification__data">
+                                                                      <h3 class="qualification__area">WebDesigner</h3>
+
+                                                                      <div class="qualification__box">
+                                                                                <span class="qualification__work">
+                                                                                          <i
+                                                                                                    class='bx bxs-map qualification__icon'></i>
+                                                                                          We Sell
+                                                                                </span>
+                                                                                <span class="qualification__work">
+                                                                                          <i
+                                                                                                    class='bx bx-calendar qualification__icon'></i>
+                                                                                          Fevereiro 2021 - Junho 2021
+                                                                                </span>
+                                                                      </div>
+                                                            </div>
+                                                            <div class="qualification__data">
+                                                                      <h3 class="qualification__area">Desenvolvedor</h3>
+
+                                                                      <div class="qualification__box">
+                                                                                <span class="qualification__work">
+                                                                                          <i
+                                                                                                    class='bx bxs-map qualification__icon'></i>
+                                                                                          Antidoto Design e Tecnologia
+                                                                                </span>
+                                                                                <span class="qualification__work">
+                                                                                          <i
+                                                                                                    class='bx bx-calendar qualification__icon'></i>
+                                                                                          Julho 2021 - Outubro 2021
+                                                                                </span>
+                                                                      </div>
+                                                            </div>
+                                                            <div class="qualification__data">
+                                                                      <h3 class="qualification__area">Desenvolvedor</h3>
+
+                                                                      <div class="qualification__box">
+                                                                                <span class="qualification__work">
+                                                                                          <i
+                                                                                                    class='bx bxs-map qualification__icon'></i>
+                                                                                          Tesla Tecnologia e Comunicação
+                                                                                </span>
+                                                                                <span class="qualification__work">
+                                                                                          <i
+                                                                                                    class='bx bx-calendar qualification__icon'></i>
+                                                                                          Outubro 2021 - Atual
+                                                                                </span>
+                                                                      </div>
+                                                            </div>
+                                                  </div>
+                                        </div>
+                                        <div class="qualification__content">
+                                                  <h2 class="qualification__title">
+                                                            <i class='bx bxs-book qualification__title-icon'></i>
+                                                            Cursos Certificações
+                                                  </h2>
+
+                                                  <div class="bd-grid">
+                                                            <div class="qualification__data">
+                                                                      <h3 class="qualification__area">Análise e
+                                                                                Desenvolvimento de Sistemas</h3>
+
+                                                                      <div class="qualification__box">
+                                                                                <span class="qualification__work">
+                                                                                          <i
+                                                                                                    class='bx bxs-map qualification__icon'></i>
+                                                                                          IFSP São Paulo - Campus
+                                                                                          Pirituba
+                                                                                </span>
+                                                                                <span class="qualification__work">
+                                                                                          <i
+                                                                                                    class='bx bx-calendar qualification__icon'></i>
+                                                                                          Fevereiro 2019 - Junho 2022
+                                                                                </span>
+                                                                      </div>
+                                                            </div>
+                                                            <div class="qualification__data">
+                                                                      <h3 class="qualification__area">Linguagens de
+                                                                                Programação Web</h3>
+
+                                                                      <div class="qualification__box">
+                                                                                <span class="qualification__work">
+                                                                                          <i
+                                                                                                    class='bx bxs-map qualification__icon'></i>
+                                                                                          IFSP São Paulo - Campus
+                                                                                          Pirituba
+                                                                                </span>
+                                                                                <span class="qualification__work">
+                                                                                          <i
+                                                                                                    class='bx bx-calendar qualification__icon'></i>
+                                                                                          Junho 2015 - Outubro 2015
+                                                                                </span>
+                                                                      </div>
+                                                            </div>
+                                                            <div class="qualification__data">
+                                                                      <h3 class="qualification__area">React e React
+                                                                                Native</h3>
+
+                                                                      <div class="qualification__box">
+                                                                                <span class="qualification__work">
+                                                                                          <i
+                                                                                                    class='bx bxs-map qualification__icon'></i>
+                                                                                          Udemy - Online
+                                                                                </span>
+                                                                                <span class="qualification__work">
+                                                                                          <i
+                                                                                                    class='bx bx-calendar qualification__icon'></i>
+                                                                                          Fevereiro 2021 - Março 2021
+                                                                                </span>
+                                                                      </div>
+                                                            </div>
+                                                            <div class="qualification__data">
+                                                                      <h3 class="qualification__area">Desenvolvimento
+                                                                                IOS</h3>
+
+                                                                      <div class="qualification__box">
+                                                                                <span class="qualification__work">
+                                                                                          <i
+                                                                                                    class='bx bxs-map qualification__icon'></i>
+                                                                                          Udemy - Online
+                                                                                </span>
+                                                                                <span class="qualification__work">
+                                                                                          <i
+                                                                                                    class='bx bx-calendar qualification__icon'></i>
+                                                                                          Abril 2021 - Atual
+                                                                                </span>
+                                                                      </div>
+                                                            </div>
+                                                  </div>
+                                        </div>
+                              </div>
+                    </section>
+                    <!--===== SERVICES =====-->
+                    <section class="services section bd-container" id="services">
+                              <span class="section-subtitle">O que eu ofereço</span>
+                              <h2 class="section-title">Serviços</h2>
+
+                              <div class="services__container bd-grid">
+                                        <div class="services__data">
+                                                  <i class='bx bx-code services__icon'></i>
+                                                  <h3 class="services__title">Desenvolvedor Front End</h3>
+                                                  <p class="services__description">Linguagens de Programação Front-end
+                                                            como React.js, Mobile como React Native, HTML, CSS, JS, etc.
+                                                            Juntas e combinadas com muito esforço e dedicação.</p>
+                                                  <a href="https://api.whatsapp.com/send?phone=5511971026994&text=Ol%C3%A1%20quero%20informa%C3%A7%C3%B5es%20sobre%20seu%20trabalho"
+                                                            class="button">Contrate Agora</a>
+                                        </div>
+
+                                        <div class="services__data">
+                                                  <i class='bx bxs-window-alt services__icon'></i>
+                                                  <h3 class="services__title">WebDesigner Full</h3>
+                                                  <p class="services__description">Designer modernos metodologias ágeis,
+                                                            UX/UI, entre outros modelos de designe aplicados.</p>
+                                                  <a href="https://api.whatsapp.com/send?phone=5511971026994&text=Ol%C3%A1%20quero%20informa%C3%A7%C3%B5es%20sobre%20seu%20trabalho"
+                                                            class="button">Contrate Agora</a>
+                                        </div>
+
+                                        <div class="services__data">
+                                                  <i class='bx bx-laptop services__icon'></i>
+                                                  <h3 class="services__title">Suporte Web</h3>
+                                                  <p class="services__description">Manuntenção de sites, criação de
+                                                            sites, suporte à sites entre outros, suporte a sistemas de
+                                                            software e aplicativos.</p>
+                                                  <a href="https://api.whatsapp.com/send?phone=5511971026994&text=Ol%C3%A1%20quero%20informa%C3%A7%C3%B5es%20sobre%20seu%20trabalho"
+                                                            class="button"></i> Contrate Agora</a>
+                                        </div>
+
+                                        <div class="services__data">
+                                                  <i class='bx bxs-data services__icon'></i>
+                                                  <h3 class="services__title">Projetista</h3>
+                                                  <p class="services__description">MYSQP, SQL Server. Domínio na
+                                                            projeção de Banco de Dados, manuntenção e suporte.</p>
+                                                  <a href="https://api.whatsapp.com/send?phone=5511971026994&text=Ol%C3%A1%20quero%20informa%C3%A7%C3%B5es%20sobre%20seu%20trabalho"
+                                                            class="button">Contrate Agora</a>
+                                        </div>
+                              </div>
+                    </section>
+                    <!--===== PORTFOLIO =====-->
+                    <section class="portfolio section bd-container" id="portfolio">
+                              <span class="section-subtitle">Meus trabalhos recentes</span>
+                              <h2 class="section-title">Portfólio</h2>
+
+                              <div class="portfolio__container bd-grid">
+                                        <div class="portfolio__content">
+                                                  <a href="https://wesell.ws/"><img src="assets/img/work.png" alt=""
+                                                                      class="portfolio__img"></a>
+                                                  <div class="portfolio__data">
+                                                            <span class="portfolio__subtitle">Desenvolvimento Web</span>
+                                                            <h2 class="portfolio__title">Site de criação autoral
+                                                                      recentemente entregue à cliente</h2>
+                                                            <a href="https://institutodalma.com.br/" class="button">Veja
+                                                                      detalhes</a>
+                                                  </div>
+                                        </div>
+
+                                        <div class="portfolio__content">
+                                                  <a href="https://wesell.ws/"><img src="assets/img/work1.png" alt=""
+                                                                      class="portfolio__img"></a>
+                                                  <div class="portfolio__data">
+                                                            <span class="portfolio__subtitle">Desenvolvimento Web</span>
+                                                            <h2 class="portfolio__title">Site de criação autoral
+                                                                      recentemente entregue à cliente</h2>
+                                                            <a href="https://wesell.ws/" class="button">Veja
+                                                                      detalhes</a>
+                                                  </div>
+                                        </div>
+
+                                        <div class="portfolio__content">
+                                                  <a href="http://www.conape.com.br/"><img src="assets/img/work2.png"
+                                                                      alt="" class="portfolio__img"></a>
+                                                  <div class="portfolio__data">
+                                                            <span class="portfolio__subtitle">Desenvolvimento Web</span>
+                                                            <h2 class="portfolio__title">Site de criação autoral
+                                                                      entregue à um cliente antigo</h2>
+                                                            <a href="http://www.conape.com.br/" class="button">Veja
+                                                                      detalhes</a>
+                                                  </div>
+                                        </div>
+
+                                        <div class="portfolio__content">
+                                                  <a href="https://www.antidotodesign.com.br/dev/sesi/lp/"><img
+                                                                      src="assets/img/work4.PNG" alt=""
+                                                                      class="portfolio__img"></a>
+                                                  <div class="portfolio__data">
+                                                            <span class="portfolio__subtitle">Desenvolvimento Web</span>
+                                                            <h2 class="portfolio__title">Site de criação autoral
+                                                                      entregue à um cliente antigo</h2>
+                                                            <a href="https://www.antidotodesign.com.br/dev/sesi/lp/"
+                                                                      class="button">Veja
+                                                                      detalhes</a>
+                                                  </div>
+                                        </div>
+                                        <div class="portfolio__content">
+                                                  <a href="https://www.antidotodesign.com.br/dev/bd/lp/"><img
+                                                                      src="assets/img/work5.PNG" alt=""
+                                                                      class="portfolio__img"></a>
+                                                  <div class="portfolio__data">
+                                                            <span class="portfolio__subtitle">Desenvolvimento Web</span>
+                                                            <h2 class="portfolio__title">Site de criação autoral
+                                                                      entregue à um cliente antigo</h2>
+                                                            <a href="https://www.antidotodesign.com.br/dev/bd/lp/"
+                                                                      class="button">Veja
+                                                                      detalhes</a>
+                                                  </div>
+                                        </div>
+                                        <div class="portfolio__content">
+                                                  <a href="https://admincare.site.antido.to/"><img
+                                                                      src="assets/img/work6.PNG" alt=""
+                                                                      class="portfolio__img"></a>
+                                                  <div class="portfolio__data">
+                                                            <span class="portfolio__subtitle">Desenvolvimento de
+                                                                      Aplicação</span>
+                                                            <h2 class="portfolio__title">Site de criação autoral
+                                                                      entregue à um cliente antigo</h2>
+                                                            <a href="https://admincare.site.antido.to/"
+                                                                      class="button">Veja
+                                                                      detalhes</a>
+                                                  </div>
+                                        </div>
+
+
+                              </div>
+                    </section>
+
+                    <!--===== CONTACTME =====-->
+                    <section class="contact section bd-container" id="contact">
+                              <span class="section-subtitle">Venha me conhecer!</span>
+                              <h2 class="section-title">Contato</h2>
+
+                              <div class="contact__container bd-grid">
+                                        <div class="contact__content bd-grid">
+                                                  <div class="contact__box">
+                                                            <i class='bx bxs-home contact__icon'></i>
+                                                            <h3 class="contact__title">Localização</h3>
+                                                            <span class="contact__description">São Paulo - SP</span>
+                                                  </div>
+
+                                                  <div class="contact__box">
+                                                            <i class='bx bxl-whatsapp contact__icon'></i>
+                                                            <h3 class="contact__title">Telefone</h3>
+                                                            <span class="contact__description">+55 11 97102-6994</span>
+                                                  </div>
+
+                                                  <div class="contact__box">
+                                                            <i class='bx bx-envelope contact__icon'></i>
+                                                            <h3 class="contact__title">E-mail</h3>
+                                                            <span
+                                                                      class="contact__description">viniciusmassis01@hotmail.com</span>
+                                                  </div>
+                                        </div>
+                              </div>
+                    </section>
+          </main>
+
+          <!--===== FOOTER =====-->
+          <footer class="footer">
+                    <div class="footer__container bd-container">
+                              <h1 class="footer__title">VM Desenvolvimento</h1>
+                              <p class="footer__description">Ola, eu sou Vinícius Montanha, sou tambem VM
+                                        desenvolvimento, empresa voltada para criação e manuntenção de sites</p>
+
+                              <div class="footer__social">
+                                        <a href="https://www.linkedin.com/mwlite/in/vinícius-montanha-de-assis-b51771183"
+                                                  class="footer__link"><i class='bx bxl-linkedin'> </i></a>
+                                        <a href="https://api.whatsapp.com/send?phone=5511971026994"
+                                                  class="footer__link"><i class='bx bxl-whatsapp'> </i></a>
+                                        <a href="https://www.instagram.com/_vmontanha/" class="footer__link"><i
+                                                            class='bx bxl-instagram'> </i></a>
+                              </div>
+
+                              <p class="footer__copy">&#169; 2021 VM Desenvolvimento. Todos direitos reservados</p>
                     </div>
+          </footer>
 
-                    <div class="home__social">
-                        <a href="https://www.linkedin.com/mwlite/in/vinícius-montanha-de-assis-b51771183" class="home__social-icon"><i class='bx bxl-linkedin'></i></a>
-                        <a href="https://api.whatsapp.com/send?phone=5511971026994&text=Ol%C3%A1%20quero%20informa%C3%A7%C3%B5es%20sobre%20seu%20trabalho" class="home__social-icon"><i class='bx bxl-whatsapp'></i></a>
-                    </div>
+          <!--GSAP JS-->
+          <script src="assets/js/gsap.min.js"></script>
 
-                    <div class="home__img">
-                        <img id="img" src="https://images.unsplash.com/photo-1618325500063-14cd8117354c?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=634&q=80" alt="">
-                    </div>
-                </div>
-            </section>
-            
-            <!--===== ABOUT =====-->
-            <section class="about section bd-container" id="about">
-                <span class="section-subtitle">Minha Historia</span>
-                <h2 class="section-title">Sobre Mim</h2>
-
-                <div class="about__container bd-grid">
-                    <div class="about__data bd-grid">
-                        <p class="about__description"><span>Ola, eu sou Vinícius Montanha.</span><br> sou tambem VM desenvolvimento, empresa voltada para criação e manuntenção de sites</p>
-
-                        <div>
-                            <span class="about__number">+03</span>
-                            <span class="about__achievement">Anos de Experiência</span>
-                        </div>
-
-                        <div>
-                            <span class="about__number">+10</span>
-                            <span class="about__achievement">Projetos Concluídos</span>
-                        </div>
-
-                        <div>
-                            <span class="about__number">Todos</span>
-                            <span class="about__achievement">Responsáveis</span>
-                        </div>
-                    </div>
-                    <img src="assets/img/about.jpeg" alt="" class="about__img">
-                </div>
-            </section>
-
-            <!--===== QUALIFICATION =====-->
-            <section class="qualification section bd-container">
-                <span class="section-subtitle">Experiência e Educação</span>
-                <h2 class="section-title">Experiência</h2>
-
-                <div class="qualification__container bd-grid">
-                    <div class="qualification__content">
-                        <h2 class="qualification__title">
-                            <i class='bx bxs-briefcase-alt-2 qualification__title-icon'></i>
-                            Experiência de Trabalho
-                        </h2>
-
-                        <div class="bd-grid">
-                            <div class="qualification__data">
-                                <h3 class="qualification__area">Suporte a Sistemas</h3>
-
-                                <div class="qualification__box">
-                                    <span class="qualification__work">
-                                        <i class='bx bxs-map qualification__icon'></i>
-                                        HoldingClube
-                                    </span>
-                                    <span class="qualification__work">
-                                        <i class='bx bx-calendar qualification__icon'></i>
-                                        Abril 2019 - Abril 2020
-                                    </span>
-                                </div>
-                            </div>
-                            <div class="qualification__data">
-                                <h3 class="qualification__area">Freela Web</h3>
-
-                                <div class="qualification__box">
-                                    <span class="qualification__work">
-                                        <i class='bx bxs-map qualification__icon'></i>
-                                        Freela
-                                    </span>
-                                    <span class="qualification__work">
-                                        <i class='bx bx-calendar qualification__icon'></i>
-                                        Abril 2020 - Outubro 2020
-                                    </span>
-                                </div>
-                            </div>
-                            <div class="qualification__data">
-                                <h3 class="qualification__area">WebDesigner</h3>
-
-                                <div class="qualification__box">
-                                    <span class="qualification__work">
-                                        <i class='bx bxs-map qualification__icon'></i>
-                                        Conape
-                                    </span>
-                                    <span class="qualification__work">
-                                        <i class='bx bx-calendar qualification__icon'></i>
-                                        Outubro 2020 - Fevereiro 2021
-                                    </span>
-                                </div>
-                            </div>
-                            <div class="qualification__data">
-                                <h3 class="qualification__area">WebDesigner</h3>
-
-                                <div class="qualification__box">
-                                    <span class="qualification__work">
-                                        <i class='bx bxs-map qualification__icon'></i>
-                                        We Sell
-                                    </span>
-                                    <span class="qualification__work">
-                                        <i class='bx bx-calendar qualification__icon'></i>
-                                        Fevereiro 2021 - Atual
-                                    </span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="qualification__content">
-                        <h2 class="qualification__title">
-                            <i class='bx bxs-book qualification__title-icon'></i>
-                            Cursos Certificações
-                        </h2>
-
-                        <div class="bd-grid">
-                            <div class="qualification__data">
-                                <h3 class="qualification__area">Análise e Desenvolvimento de Sistemas</h3>
-
-                                <div class="qualification__box">
-                                    <span class="qualification__work">
-                                        <i class='bx bxs-map qualification__icon'></i>
-                                        IFSP São Paulo - Campus Pirituba
-                                    </span>
-                                    <span class="qualification__work">
-                                        <i class='bx bx-calendar qualification__icon'></i>
-                                        Fevereiro 2019 - Junho 2022
-                                    </span>
-                                </div>
-                            </div>
-                            <div class="qualification__data">
-                                <h3 class="qualification__area">Linguagens de Programação Web</h3>
-
-                                <div class="qualification__box">
-                                    <span class="qualification__work">
-                                        <i class='bx bxs-map qualification__icon'></i>
-                                        IFSP São Paulo - Campus Pirituba
-                                    </span>
-                                    <span class="qualification__work">
-                                        <i class='bx bx-calendar qualification__icon'></i>
-                                        Junho 2015 - Outubro 2015
-                                    </span>
-                                </div>
-                            </div>
-                            <div class="qualification__data">
-                                <h3 class="qualification__area">React e React Native</h3>
-
-                                <div class="qualification__box">
-                                    <span class="qualification__work">
-                                        <i class='bx bxs-map qualification__icon'></i>
-                                        Udemy - Online
-                                    </span>
-                                    <span class="qualification__work">
-                                        <i class='bx bx-calendar qualification__icon'></i>
-                                        Fevereiro 2021 - Março 2021
-                                    </span>
-                                </div>
-                            </div>
-                            <div class="qualification__data">
-                                <h3 class="qualification__area">Desenvolvimento IOS</h3>
-
-                                <div class="qualification__box">
-                                    <span class="qualification__work">
-                                        <i class='bx bxs-map qualification__icon'></i>
-                                        Udemy - Online
-                                    </span>
-                                    <span class="qualification__work">
-                                        <i class='bx bx-calendar qualification__icon'></i>
-                                        Abril 2021 - Atual
-                                    </span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </section>
-            <!--===== SERVICES =====-->
-            <section class="services section bd-container" id="services">
-                <span class="section-subtitle">O que eu ofereço</span>
-                <h2 class="section-title">Serviços</h2>
-
-                <div class="services__container bd-grid">
-                    <div class="services__data">
-                        <i class='bx bx-code services__icon' ></i>
-                        <h3 class="services__title">Desenvolvedor Front End</h3>
-                        <p class="services__description">Linguagens de Programação Front-end como React.js, Mobile como React Native, HTML, CSS, JS, etc. Juntas e combinadas com muito esforço e dedicação.</p>
-                        <a href="https://api.whatsapp.com/send?phone=5511971026994&text=Ol%C3%A1%20quero%20informa%C3%A7%C3%B5es%20sobre%20seu%20trabalho" class="button">Contrate Agora</a>
-                    </div>
-
-                    <div class="services__data">
-                        <i class='bx bxs-window-alt services__icon'></i>
-                        <h3 class="services__title">WebDesigner Full</h3>
-                        <p class="services__description">Designer modernos metodologias ágeis, UX/UI, entre outros modelos de designe aplicados.</p>
-                        <a href="https://api.whatsapp.com/send?phone=5511971026994&text=Ol%C3%A1%20quero%20informa%C3%A7%C3%B5es%20sobre%20seu%20trabalho" class="button">Contrate Agora</a>
-                    </div>
-
-                    <div class="services__data">
-                        <i class='bx bx-laptop services__icon'></i>
-                        <h3 class="services__title">Suporte Web</h3>
-                        <p class="services__description">Manuntenção de sites, criação de sites, suporte à sites entre outros, suporte a sistemas de software e aplicativos.</p>
-                        <a href="https://api.whatsapp.com/send?phone=5511971026994&text=Ol%C3%A1%20quero%20informa%C3%A7%C3%B5es%20sobre%20seu%20trabalho" class="button"></i> Contrate Agora</a>
-                    </div>
-
-                    <div class="services__data">
-                        <i class='bx bxs-data services__icon' ></i>
-                        <h3 class="services__title">Projetista BD</h3>
-                        <p class="services__description">MYSQP, SQL Server. Domínio na projeção de Banco de Dados, manuntenção e suporte.</p>
-                        <a href="https://api.whatsapp.com/send?phone=5511971026994&text=Ol%C3%A1%20quero%20informa%C3%A7%C3%B5es%20sobre%20seu%20trabalho" class="button">Contrate Agora</a>
-                    </div>
-                </div>
-            </section>
-            <!--===== PORTFOLIO =====-->
-            <section class="portfolio section bd-container" id="portfolio">
-                <span class="section-subtitle">Meus trabalhos recentes</span>
-                <h2 class="section-title">Portfólio</h2>
-
-                <div class="portfolio__container bd-grid">
-                    <div class="portfolio__content">
-                        <a href="https://wesell.ws/"><img src="assets/img/work.png" alt="" class="portfolio__img"></a>
-                        <div class="portfolio__data">
-                            <span class="portfolio__subtitle">Desenvolvimento Web</span>
-                            <h2 class="portfolio__title">Site de criação autoral recentemente entregue à cliente</h2>
-                            <a href="https://institutodalma.com.br/" class="button">Veja detalhes</a>
-                        </div>
-                    </div>
-
-                    <div class="portfolio__content">
-                        <a href="https://wesell.ws/"><img src="assets/img/work1.png" alt="" class="portfolio__img"></a>
-                        <div class="portfolio__data">
-                            <span class="portfolio__subtitle">Desenvolvimento Web</span>
-                            <h2 class="portfolio__title">Site de criação autoral recentemente entregue à cliente</h2>
-                            <a href="https://wesell.ws/" class="button">Veja detalhes</a>
-                        </div>
-                    </div>
-
-                    <div class="portfolio__content">
-                        <a href="http://www.conape.com.br/"><img src="assets/img/work2.png" alt="" class="portfolio__img"></a>
-                        <div class="portfolio__data">
-                            <span class="portfolio__subtitle">Desenvolvimento Web</span>
-                            <h2 class="portfolio__title">Site de criação autoral entregue à um cliente antigo</h2>
-                            <a href="http://www.conape.com.br/" class="button">Veja detalhes</a>
-                        </div>
-                    </div>
-
-                    <div class="portfolio__content">
-                        <a href="https://www.terracocityamerica.com.br/"><img src="assets/img/work3.png" alt="" class="portfolio__img"></a>
-                        <div class="portfolio__data">
-                            <span class="portfolio__subtitle">Desenvolvimento Web</span>
-                            <h2 class="portfolio__title">Site de criação autoral entregue à um cliente</h2>
-                            <a href="https://www.terracocityamerica.com.br/" class="button">Veja detalhes</a>
-                        </div>
-                    </div>
-                </div>
-            </section>
-
-            <!--===== CONTACTME =====-->
-            <section class="contact section bd-container" id="contact">
-                <span class="section-subtitle">Venha me conhecer!</span>
-                <h2 class="section-title">Contato</h2>
-
-                <div class="contact__container bd-grid">
-                    <div class="contact__content bd-grid">
-                        <div class="contact__box">
-                            <i class='bx bxs-home contact__icon'></i>
-                            <h3 class="contact__title">Localização</h3>
-                            <span class="contact__description">São Paulo - SP</span>
-                        </div>
-
-                        <div class="contact__box">
-                            <i class='bx bxl-whatsapp contact__icon'></i>
-                            <h3 class="contact__title">Telefone</h3>
-                            <span class="contact__description">+55 11 97102-6994</span>
-                        </div>
-
-                        <div class="contact__box">
-                            <i class='bx bx-envelope contact__icon'></i>
-                            <h3 class="contact__title">E-mail</h3>
-                            <span class="contact__description">viniciusmassis01@hotmail.com</span>
-                        </div>
-                    </div>
-                </div>
-            </section>
-        </main>
-
-        <!--===== FOOTER =====-->
-        <footer class="footer">
-            <div class="footer__container bd-container">
-                <h1 class="footer__title">VM Desenvolvimento</h1>
-                <p class="footer__description">Ola, eu sou Vinícius Montanha, sou tambem VM desenvolvimento, empresa voltada para criação e manuntenção de sites</p>
-
-                <div class="footer__social">
-                    <a href="https://www.linkedin.com/mwlite/in/vinícius-montanha-de-assis-b51771183" class="footer__link"><i class='bx bxl-linkedin'> </i></a>
-                    <a href="https://api.whatsapp.com/send?phone=5511971026994" class="footer__link"><i class='bx bxl-whatsapp'> </i></a>
-                    <a href="https://www.instagram.com/_vmontanha/" class="footer__link"><i class='bx bxl-instagram'> </i></a>
-                </div>
-
-                <p class="footer__copy">&#169; 2021 VM Desenvolvimento. Todos direitos reservados</p>
-            </div>
-        </footer>
-
-    <!--GSAP JS-->
-    <script src="assets/js/gsap.min.js"></script>
-
-    <script src="assets/js/main.js"></script>
+          <script src="assets/js/main.js"></script>
 
 </body>
+
 </html>
