@@ -169,6 +169,20 @@ img {
                     border-radius: 0 0 1rem 1rem;
           }
 
+          .home__img {
+                    position: relative !important;
+                    margin-left: auto !important;
+                    margin-right: auto !important;
+                    right: 0 !important;
+                    bottom: 0 !important;
+                    top: -80% !important;
+
+          }
+
+          .home__img img {
+                    width: 200px !important;
+          }
+
 }
 
 .nav__item {
