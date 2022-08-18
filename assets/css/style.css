@@ -503,6 +503,7 @@ img {
           background-color: #000;
           color: var(--first-color-lighten);
           text-align: center;
+          height: 100vh;
 }
 
 .footer__container {
@@ -569,6 +570,7 @@ img {
 
           .section {
                     padding-top: 6rem;
+                    padding-bottom: 6rem;
           }
 
           .section-title {
